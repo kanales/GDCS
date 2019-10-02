@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{corollary}{Corolari}[theorem]
+\newtheorem{lemma}{Lema}[theorem]
+\newtheorem{definition}{Definició}[theorem]
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\wbal}{The Wikibook about \LaTeX}
+
+\begin{document}
+\begin{definition}[Longitud de una corba]
+
+    Sigui $\alpha: I \rightarrow \mathbb{R}^n$, donats $t_0 \le t_1$; $t_0, t_1 \in I$. La \textbf{longitud d'arc} de  $t_0$ a $t_1$ es defineix com:
+    \[ long(\alpha; t_0, t_1 ) := \int_{t_0}^{t_1} \norm{\alpha(t)} dt \]
+
+\end{definition}
+\begin{definition}
+    \begin{itemize}
+        \item One entry in the list
+        \item Another entry in the list
+      \end{itemize}
+    %\begin{itemize}
+    %    \item o %\[\lambda(\alpha, S) := \sum_{j=0}^{r} \norm{\alpha(S_{j+1}) - \alpha(S_j)} \]
+        % on S \subseteq (t_0, t_1)
+    %\end{itemize}
+        
+\end{document}
